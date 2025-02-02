@@ -100,7 +100,7 @@ export default function Game() {
 
   return (
     <div className="game">
-      <h1>Vicente es gay</h1>
+      <h1>Test for deployment</h1>
       <div className="game-board">
         <Board squares={currentSquares} xIsNext={xIsNext} onPlay={handlePlay} />
       </div>
